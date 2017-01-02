@@ -199,6 +199,18 @@ Execute a rest query using the http GET, POST, PUT or DELETE method
   </tr>
     
 <tr>
+        <td colspan=4><strong>Version: 0.4.25 - released 2017-01-02</strong></td>
+      </tr>
+        
+<tr>
+            <td style="width:20px;padding:0;margin:0;text-align:center;"><img src="https://jira.nhvr.net:80/secure/viewavatar?size=xsmall&amp;avatarId=10418&amp;avatarType=issuetype"/></td>
+            <td style="width:80px;text-align:left;">Non-functional</td>
+            <td style="width:80px;text-align:left;">MDOAUTH-48</td>
+            <td><p>Oauth: Set querystring.parse return object to prototypically extend from the JavaScript Object</p><p></p></td>
+          </tr>
+        
+    
+<tr>
         <td colspan=4><strong>Version: 0.4.24 - released 2016-06-18</strong></td>
       </tr>
         
@@ -665,6 +677,6 @@ MIT License (MIT). All rights not explicitly granted in the license are reserved
 
 Copyright (c) 2015 John Barry
 ## Dependencies
-[oauth-rest-atlassian@0.4.23](&quot;https://github.com/Cellarise/OAuth-REST-Atlassian&quot;) - &quot;MIT License (MIT)&quot;, 
+[oauth-rest-atlassian@0.4.24](&quot;https://github.com/Cellarise/OAuth-REST-Atlassian&quot;) - &quot;MIT License (MIT)&quot;, 
 *documented by [npm-licenses](http://github.com/AceMetrix/npm-license.git)*.
 
