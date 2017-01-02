@@ -280,6 +280,16 @@ module.exports = function testTasks(gulp, context) {
       path.join(cwd, directories.reports, "8",  "code-coverage"),
       path.join(cwd, directories.reports, "9",  "code-coverage"),
       path.join(cwd, directories.reports, "10",  "code-coverage"),
+      path.join(cwd, directories.reports, "11",  "code-coverage"),
+      path.join(cwd, directories.reports, "12",  "code-coverage"),
+      path.join(cwd, directories.reports, "13",  "code-coverage"),
+      path.join(cwd, directories.reports, "14",  "code-coverage"),
+      path.join(cwd, directories.reports, "15",  "code-coverage"),
+      path.join(cwd, directories.reports, "16",  "code-coverage"),
+      path.join(cwd, directories.reports, "17",  "code-coverage"),
+      path.join(cwd, directories.reports, "18",  "code-coverage"),
+      path.join(cwd, directories.reports, "19",  "code-coverage"),
+      path.join(cwd, directories.reports, "20",  "code-coverage"),
       path.join(cwd, directories.reports, "NFR", "code-coverage")
     ];
     var coverageFileNames = [
