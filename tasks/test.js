@@ -311,7 +311,7 @@ module.exports = function testTasks(gulp, context) {
                 JSON.parse(fileContents
                   .toString('utf-8')
                   .replace(
-                    /(C:|D:|c:|d:)\\\\bamboo.*?\\\\xml-data\\\\build-dir\\\\.*?NHVR.*?\\\\/g,
+                    /(C:|D:|E:|c:|d:|e:)\\\\bamboo.*?\\\\xml-data\\\\build-dir\\\\.*?NHVR.*?\\\\/g,
                     cwd.replace(/\\/g, "\\\\") + "\\\\"
                   )
                 )
