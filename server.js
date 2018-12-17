@@ -13,6 +13,8 @@ var fs = require('fs');
 
 //get config
 var config = require(process.cwd() + "/config.json");
+config.protocol = config.protocol || "http";
+config.port = config.port || "80";
 var appConfigJira = config.applications.jira;
 var appConfigBamboo = config.applications.bamboo;
 
@@ -32,7 +34,7 @@ var consumerJira =
         appConfigJira.oauth.consumer_key,
         appConfigJira.oauth.consumer_secret,
         "1.0",
-        "https://localhost/jira/callback/",
+        config.protocol + "://localhost:" + config.port + "/jira/callback/",
         "RSA-SHA1");
 
 
@@ -52,7 +54,7 @@ var consumerBamboo =
         appConfigBamboo.oauth.consumer_key,
         appConfigBamboo.oauth.consumer_secret,
         "1.0",
-        "https://localhost/bamboo/callback/",
+        config.protocol + "://localhost:" + config.port + "/bamboo/callback/",
         "RSA-SHA1");
 
 
